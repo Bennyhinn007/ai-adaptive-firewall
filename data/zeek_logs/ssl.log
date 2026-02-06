@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2026-02-06-12-28-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1770380327.593086	Cjd7Jan068KEWmXb5	172.28.28.139	42900	34.243.160.129	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	motd.ubuntu.com	F	-	-	T	CsxknGIti	b0f071573f561ed897c4ec21e503721c9bd619942ad8d01ac6789890616b794e,131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec	(empty)	T
+1770380718.282295	CForJE2aUSJcZGszmh	172.28.28.139	51116	104.20.45.190	443	TLSv13	TLS_AES_256_GCM_SHA384	x25519	deb.nodesource.com	F	-	-	T	CsiI	-	-	-
+1770380719.242783	CEEL6d24SJcgXB2Ea3	172.28.28.139	58700	185.125.190.23	443	TLSv13	TLS_AES_256_GCM_SHA384	secp256r1	esm.ubuntu.com	F	-	-	T	CsiI	-	-	-
+1770380720.319743	CLiO5w4PnYI6hJqYff	172.28.28.139	53448	34.243.160.129	443	-	-	-	motd.ubuntu.com	F	close_notify	-	F	CL	-	-	-
+1770380749.681664	CSqrHoI5cQEQh2H9	172.28.28.139	34638	195.135.223.226	443	TLSv13	TLS_AES_256_GCM_SHA384	secp256r1	download.opensuse.org	F	-	-	T	CsiI	-	-	-
+1770380749.442371	CVTolp1K6iqdESpAhg	172.28.28.139	43358	54.247.62.1	443	-	-	-	motd.ubuntu.com	F	close_notify	-	F	CL	-	-	-
+1770380782.438495	CXw9JX3stymrAYvb03	172.28.28.139	60614	34.243.160.129	443	-	-	-	motd.ubuntu.com	F	-	-	F	C	-	-	-
+1770380719.689370	CsAVh24TkQtwuewtvl	172.28.28.139	54698	195.135.223.226	443	-	-	-	download.opensuse.org	F	close_notify	-	F	CL	-	-	-
+#close	2026-02-06-12-28-58

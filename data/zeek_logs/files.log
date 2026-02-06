@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-02-06-12-28-58
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1770380719.615708	FDiNwe4CxwGTSOdil6	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	HTTP	0	(empty)	text/plain	-	1.374601	F	F	126125	126125	0	0	F	-	-	-	-	-	-	-
+1770380721.907896	FzIKBy3XukbBzpDxNf	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	HTTP	0	(empty)	application/x-xz	-	1.770689	F	F	1738424	1738424	0	0	F	-	-	-	-	-	-	-
+1770380723.678585	Fy5oKb1kTSXKBlMwE	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	HTTP	0	(empty)	application/x-xz	-	0.398389	F	F	1527892	1527892	0	0	F	-	-	-	-	-	-	-
+#close	2026-02-06-12-28-58

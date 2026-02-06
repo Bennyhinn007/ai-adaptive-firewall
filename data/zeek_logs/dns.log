@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2026-02-06-12-28-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1770380104.075703	CZohcI27iWJvzNjtN9	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380104.079451	CZohcI27iWJvzNjtN9	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380105.169303	CZohcI27iWJvzNjtN9	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380105.173253	CZohcI27iWJvzNjtN9	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380107.349470	CZohcI27iWJvzNjtN9	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380107.355305	CZohcI27iWJvzNjtN9	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380104.075208	CwhpYm1APgxbxC3hkd	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380104.078616	CwhpYm1APgxbxC3hkd	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380105.168995	CwhpYm1APgxbxC3hkd	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380105.172778	CwhpYm1APgxbxC3hkd	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380107.349002	CwhpYm1APgxbxC3hkd	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380107.354225	CwhpYm1APgxbxC3hkd	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1770380508.895856	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	e7c2fc94-21cb-42e4-9d44-334d90d1e9f4.local	-	-	-	-	0	NOERROR	T	F	F	F	0	172.28.42.138	120.000000	F
+1770380509.983309	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	e7c2fc94-21cb-42e4-9d44-334d90d1e9f4.local	-	-	-	-	0	NOERROR	T	F	F	F	0	172.28.42.138	120.000000	F
+1770380511.066028	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	a7e8d4d2-7c58-4619-b982-60251f8964b2.local	-	-	-	-	0	NOERROR	T	F	F	F	0	2401:4900:93b9:3a5f:446:a4d5:7f21:ef99	120.000000	F
+1770380512.147787	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	a7e8d4d2-7c58-4619-b982-60251f8964b2.local	-	-	-	-	0	NOERROR	T	F	F	F	0	2401:4900:93b9:3a5f:446:a4d5:7f21:ef99	120.000000	F
+1770380513.252458	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	9d79528a-3d1f-42ee-8ace-c4fc575d3a5c.local	-	-	-	-	0	NOERROR	T	F	F	F	0	0.0.0.0	120.000000	F
+1770380514.323363	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	9d79528a-3d1f-42ee-8ace-c4fc575d3a5c.local	-	-	-	-	0	NOERROR	T	F	F	F	0	0.0.0.0	120.000000	F
+1770380515.399630	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	ae31fcd7-cc1c-47d1-bc71-465012a1f9ff.local	-	-	-	-	0	NOERROR	T	F	F	F	0	::	120.000000	F
+1770380516.486279	CzgcWC1bXskjAPRfRl	fe80::1fdc:f454:af5d:7350	5353	ff02::fb	5353	udp	0	-	ae31fcd7-cc1c-47d1-bc71-465012a1f9ff.local	-	-	-	-	0	NOERROR	T	F	F	F	0	::	120.000000	F
+1770380508.895304	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	e7c2fc94-21cb-42e4-9d44-334d90d1e9f4.local	-	-	-	-	0	NOERROR	T	F	F	F	0	172.28.42.138	120.000000	F
+1770380509.982781	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	e7c2fc94-21cb-42e4-9d44-334d90d1e9f4.local	-	-	-	-	0	NOERROR	T	F	F	F	0	172.28.42.138	120.000000	F
+1770380511.065667	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	a7e8d4d2-7c58-4619-b982-60251f8964b2.local	-	-	-	-	0	NOERROR	T	F	F	F	0	2401:4900:93b9:3a5f:446:a4d5:7f21:ef99	120.000000	F
+1770380512.147542	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	a7e8d4d2-7c58-4619-b982-60251f8964b2.local	-	-	-	-	0	NOERROR	T	F	F	F	0	2401:4900:93b9:3a5f:446:a4d5:7f21:ef99	120.000000	F
+1770380513.251017	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	9d79528a-3d1f-42ee-8ace-c4fc575d3a5c.local	-	-	-	-	0	NOERROR	T	F	F	F	0	0.0.0.0	120.000000	F
+1770380514.322708	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	9d79528a-3d1f-42ee-8ace-c4fc575d3a5c.local	-	-	-	-	0	NOERROR	T	F	F	F	0	0.0.0.0	120.000000	F
+1770380515.398620	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	ae31fcd7-cc1c-47d1-bc71-465012a1f9ff.local	-	-	-	-	0	NOERROR	T	F	F	F	0	::	120.000000	F
+1770380516.485190	CJA5Ec3WYhqlLWc7Ib	172.28.16.1	5353	224.0.0.251	5353	udp	0	-	ae31fcd7-cc1c-47d1-bc71-465012a1f9ff.local	-	-	-	-	0	NOERROR	T	F	F	F	0	::	120.000000	F
+#close	2026-02-06-12-28-58

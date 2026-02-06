@@ -1,0 +1,32 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-02-06-12-27-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1770380113.797438	CGKy0G3jOdMP8bGpb2	172.28.28.139	38041	91.189.91.157	123	bad_UDP_checksum	-	F	zeek	UDP
+1770380266.417996	CPoiXV2zmRSHculr42	172.28.28.139	47472	54.247.62.1	443	bad_TCP_checksum	-	F	zeek	TCP
+1770380266.417996	CPoiXV2zmRSHculr42	172.28.28.139	47472	54.247.62.1	443	active_connection_reuse	-	F	zeek	TCP
+1770380323.394921	Cu7tkf2SDCbhkZVxJ2	172.28.28.139	42900	34.243.160.129	443	active_connection_reuse	-	F	zeek	TCP
+1770380718.257216	CZGYqZ17dacOBmKqVi	172.28.28.139	51116	104.20.45.190	443	active_connection_reuse	-	F	zeek	TCP
+1770380718.835819	CarBEO3lZDMNThRin5	172.28.28.139	42838	91.189.92.22	80	active_connection_reuse	-	F	zeek	TCP
+1770380719.102107	CLbTuy2oajYEZVSAYd	172.28.28.139	33052	91.189.91.82	80	active_connection_reuse	-	F	zeek	TCP
+1770380719.198884	CTV7bi2h3Iyq7mkGo8	172.28.28.139	59770	91.189.92.24	80	active_connection_reuse	-	F	zeek	TCP
+1770380719.212818	CXfmU54zrLkmdcYmji	172.28.28.139	58700	185.125.190.23	443	active_connection_reuse	-	F	zeek	TCP
+1770380719.575484	CzyRXf10N8rPylFBfh	172.28.28.139	35108	91.189.91.81	80	active_connection_reuse	-	F	zeek	TCP
+1770380719.678421	CySqQh3DiCwTcwsCx9	172.28.28.139	54698	195.135.223.226	443	active_connection_reuse	-	F	zeek	TCP
+1770380719.975728	CCOlOfFiEdp602H4j	172.28.28.139	42282	54.247.62.1	443	active_connection_reuse	-	F	zeek	TCP
+1770380720.038606	CEcv0f4GAeWKqCZitj	172.28.28.139	42838	91.189.92.22	80	above_hole_data_without_any_acks	-	F	zeek	TCP
+1770380720.235568	CvJMMl3kh7fmcKS2k5	172.28.28.139	42458	34.254.182.186	443	active_connection_reuse	-	F	zeek	TCP
+1770380720.307536	ClQJdFBX7TuiA3ak7	172.28.28.139	53448	34.243.160.129	443	active_connection_reuse	-	F	zeek	TCP
+1770380720.504492	CVgX613gP98RjEdpsi	172.28.28.139	58700	185.125.190.23	443	above_hole_data_without_any_acks	-	F	zeek	TCP
+1770380749.308365	C7PbER1KPg1pidb0Ma	172.28.28.139	34638	195.135.223.226	443	active_connection_reuse	-	F	zeek	TCP
+1770380749.422489	CUemEg2qehzmFv0Ya7	172.28.28.139	43358	54.247.62.1	443	active_connection_reuse	-	F	zeek	TCP
+1770380779.960511	CEaINw29I2WCaSMGfe	172.28.28.139	47806	54.247.62.1	443	active_connection_reuse	-	F	zeek	TCP
+1770380780.244739	CbPVNWdB2x8A7YVFc	172.28.28.139	56436	34.254.182.186	443	active_connection_reuse	-	F	zeek	TCP
+1770380780.503262	CIcCdY1mHfSY7FH0Y5	172.28.28.139	35632	54.171.230.55	443	active_connection_reuse	-	F	zeek	TCP
+1770380780.758673	CWSA97mIohjaZA1Xe	172.28.28.139	39930	54.217.10.153	443	active_connection_reuse	-	F	zeek	TCP
+1770380780.982240	CepFkm4Q7drvpvCkh	172.28.28.139	60614	34.243.160.129	443	active_connection_reuse	-	F	zeek	TCP
+#close	2026-02-06-12-27-33

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-02-06-12-28-58
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1770380718.836678	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	1	GET	archive.ubuntu.com	/ubuntu/dists/noble/InRelease	-	1.1	Debian APT-HTTP/1.3 (2.8.3) non-interactive	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1770380719.200004	CdFEJm1kak2Gd7vyn2	172.28.28.139	59770	91.189.92.24	80	1	GET	security.ubuntu.com	/ubuntu/dists/noble-security/InRelease	-	1.1	Debian APT-HTTP/1.3 (2.8.3) non-interactive	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1770380719.222100	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	2	GET	archive.ubuntu.com	/ubuntu/dists/noble-updates/InRelease	-	1.1	Debian APT-HTTP/1.3 (2.8.3) non-interactive	-	0	126125	200	OK	-	-	(empty)	-	-	-	-	-	-	FDiNwe4CxwGTSOdil6	-	text/plain
+1770380720.991751	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	3	GET	archive.ubuntu.com	/ubuntu/dists/noble-backports/InRelease	-	1.1	Debian APT-HTTP/1.3 (2.8.3) non-interactive	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1770380721.440496	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	4	GET	archive.ubuntu.com	/ubuntu/dists/noble-updates/main/binary-amd64/by-hash/SHA256/a4f657b708301de2223f0e9b30933f06b785466f7db055976587aad4ab4f8c70	-	1.1	Debian APT-HTTP/1.3 (2.8.3) non-interactive	-	0	1738424	200	OK	-	-	(empty)	-	-	-	-	-	-	FzIKBy3XukbBzpDxNf	-	application/x-xz
+1770380721.440496	C825PD2Swx1QT786a5	172.28.28.139	42838	91.189.92.22	80	5	GET	archive.ubuntu.com	/ubuntu/dists/noble-updates/universe/binary-amd64/by-hash/SHA256/b2beda0b32d1d4af5d35e69d8040196e4e6db2b8d8624c5e176c7bb335d783c5	-	1.1	Debian APT-HTTP/1.3 (2.8.3) non-interactive	-	0	1527892	200	OK	-	-	(empty)	-	-	-	-	-	-	Fy5oKb1kTSXKBlMwE	-	application/x-xz
+#close	2026-02-06-12-28-58

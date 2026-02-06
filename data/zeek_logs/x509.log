@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2026-02-06-12-28-58
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1770380339.849007	b0f071573f561ed897c4ec21e503721c9bd619942ad8d01ac6789890616b794e	3	05AD5FA1B306F4413C5C648E82CE90B93E0E	CN=motd.ubuntu.com	CN=R12,O=Let's Encrypt,C=US	1768896813.000000	1776672812.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	motd.ubuntu.com	-	-	-	F	-	T	F
+1770380339.849007	131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec	3	C212324B70A9B49171DC40F7E285263C	CN=R12,O=Let's Encrypt,C=US	CN=ISRG Root X1,O=Internet Security Research Group,C=US	1710288000.000000	1804895999.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	0	F	F
+#close	2026-02-06-12-28-58

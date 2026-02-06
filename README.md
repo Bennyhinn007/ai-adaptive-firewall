@@ -18,3 +18,11 @@ This project implements an AI-assisted adaptive firewall prototype that analyzes
 
 ## Project Status
 Day 1: Environment and structure setup completed.
+
+
+
+## Day 2 – Network Traffic Collection & Zeek Analysis
+- Captured real network traffic using tcpdump
+- Processed PCAP using Zeek
+- Generated structured logs (conn.log, dns.log, http.log, ssl.log)
+- Validated fields required for behavior-based anomaly detection
